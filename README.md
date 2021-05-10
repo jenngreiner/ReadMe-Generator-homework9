@@ -12,6 +12,10 @@
 ## Description
 Command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
+Click the link below for a video walkthrough.
+
+**[README Generator Video Walkthrough](https://drive.google.com/file/d/1y-Xkl1XKEq149je0XTiAJKpQQdLaXrEh/view?usp=sharing)**
+
 ## Usage
 Open the repo in your command-line interface. Run ```node index.js``` to start the readme generator. 
 
