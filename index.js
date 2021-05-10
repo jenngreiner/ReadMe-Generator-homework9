@@ -27,7 +27,7 @@ const questions = [
       "Apache License 2.0",
       "GNU GPL 3.0",
       "MIT License",
-      "BSD 3",
+      "BSD 3-Clause New or Revised License",
       "None",
     ],
     name: "license",
@@ -60,20 +60,11 @@ const questions = [
 
 // Initialize app
 function init() {
-  inquirer
-    .prompt(questions)
-    .then((answers) => {
-      // Use user feedback for... whatever!!
-      const markdown = generateMarkdown(answers);
-      writeFile("test.md", markdown);
-    })
-    .catch((error) => {
-      if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
-      } else {
-        // Something else went wrong
-      }
-    });
+  inquirer.prompt(questions).then((answers) => {
+    // Use user feedback for... whatever!!
+    const markdown = generateMarkdown(answers);
+    writeFile("newReadme.md", markdown);
+  });
 }
 // Function call to initialize app
 init();
