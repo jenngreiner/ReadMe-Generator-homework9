@@ -1,22 +1,30 @@
-# README Generator | Jenn Greiner
-
 # Readme Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  ## Description
+  Command Line App that generates a markdown file using input from user.
 
-## Table of Contents
+  ## Table of Contents
 * [Usage](#Usage)
+* [Tests](#Tests)
+* [Installation](#installation)
+* [Contributing](#contributing)
 * [License](#license)
 * [Questions](#questions)
 
-## Description
-Command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
+  ## Installation
+  npm i
 
-## Usage
-Open the repo in your command-line interface. Run ```node index.js``` to start the readme generator. 
+  ## Tests
+  npm run test
 
+  ## Usage
+  n/a
 
-## License
+  ## Contributing
+  n/a
+
+  ## License
   (https://opensource.org/licenses/MIT)
   MIT License
       Copyright (c) [year] [fullname]
@@ -39,5 +47,5 @@ Open the repo in your command-line interface. Run ```node index.js``` to start t
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.
 
-## Questions
+  ## Questions
   Please contact <jenn.greiner1@gmail.com> with any questions. 
